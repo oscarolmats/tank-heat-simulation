@@ -31,5 +31,10 @@ for timme in range(0, 13):
     T_current = T_current - temp_minskning
     
     print(f"Efter {timme} timmar: {T_current:.1f}°C (effekt: {q/1000:.1f} kW, Ackumulerad energiförlust: {E_total:.1f} kWh)")
-
+    print(Ts)
 #Tar lågt pris nattetid och jämn effekt ut varandra?
+#Beräkna h baserat på lufthastighet från väderstation
+#Ta hänsyn till strålning? Har mindre betydelse än konvektion
+#Få med elpriset?
+#Variera utetemperaturen efter samma dygn som elpriset
+#Effekt+COP för värmepump
